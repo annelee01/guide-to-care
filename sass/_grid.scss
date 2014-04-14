@@ -1,0 +1,25 @@
+$height: 100px;
+#grid{
+  .box{
+    background-color: #e9e9e9;
+    width: 290px;
+    margin: 5px 5px 5px 5px;
+    padding: 26px;
+    text-align: center;
+    &.one-by-five-seven{
+      height: $height * 5.7;
+    }
+    &.one-by-five{
+      height: $height * 5;
+    }
+    &.one-by-two{
+      height: $height * 2;
+    }
+    &.one-by-one{
+      height: $height * 1;
+    }
+    &.one-by-one-five{
+      height: $height * 1.5;
+    }
+  }
+}

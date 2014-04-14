@@ -1,0 +1,136 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
+/*RESET*/
+/* line 9, ../sass/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+/* line 20, ../sass/_reset.scss */
+li {
+  list-style-type: none;
+}
+
+/* line 23, ../sass/_reset.scss */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 27, ../sass/_reset.scss */
+.clear {
+  clear: both;
+  margin: 0px;
+}
+
+/* line 31, ../sass/_reset.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 1, ../sass/_base.scss */
+body {
+  color: #333;
+}
+
+/* line 4, ../sass/_base.scss */
+header {
+  background-color: #28326f;
+  text-align: center;
+  padding: 145px 0 120px 0;
+  margin-bottom: 50px;
+}
+
+/* line 10, ../sass/_base.scss */
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+@media all and (max-width: 960px) {
+  /* line 10, ../sass/_base.scss */
+  .container {
+    width: 600px;
+  }
+}
+@media all and (max-width: 640px) {
+  /* line 10, ../sass/_base.scss */
+  .container {
+    width: 300px;
+  }
+}
+/* line 20, ../sass/_base.scss */
+header .container img {
+  width: 100%;
+}
+
+/* line 3, ../sass/_grid.scss */
+#grid .box {
+  background-color: #e9e9e9;
+  width: 290px;
+  margin: 5px 5px 5px 5px;
+  padding: 26px;
+  text-align: center;
+}
+/* line 9, ../sass/_grid.scss */
+#grid .box.one-by-five-seven {
+  height: 570px;
+}
+/* line 12, ../sass/_grid.scss */
+#grid .box.one-by-five {
+  height: 500px;
+}
+/* line 15, ../sass/_grid.scss */
+#grid .box.one-by-two {
+  height: 200px;
+}
+/* line 18, ../sass/_grid.scss */
+#grid .box.one-by-one {
+  height: 100px;
+}
+/* line 21, ../sass/_grid.scss */
+#grid .box.one-by-one-five {
+  height: 150px;
+}
+
+/* line 1, ../sass/_typography.scss */
+p {
+  font-family: 'merriweather';
+  font-size: 12px;
+}
+/* line 5, ../sass/_typography.scss */
+p a {
+  border-bottom: 1px solid #bcbcbc;
+  padding: 0 0 1.5px 0;
+}
+/* line 8, ../sass/_typography.scss */
+p a:hover {
+  color: red;
+}
+/* line 11, ../sass/_typography.scss */
+p a:active {
+  color: #888;
+}
+
+/* line 16, ../sass/_typography.scss */
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  padding: 0 0 5px 0;
+}
